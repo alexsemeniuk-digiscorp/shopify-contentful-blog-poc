@@ -1,0 +1,1 @@
+# shopify-contentful-blog-poc
