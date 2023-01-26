@@ -1,0 +1,30 @@
+{
+  "name": "shopify-contentful-blog-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "micro:dev": "micro-dev",
+    "micro": "micro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexsemeniuk-digiscorp/shopify-contentful-blog-poc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexsemeniuk-digiscorp/shopify-contentful-blog-poc/issues"
+  },
+  "homepage": "https://github.com/alexsemeniuk-digiscorp/shopify-contentful-blog-poc#readme",
+  "dependencies": {
+    "@contentful/rich-text-html-renderer": "^16.0.2",
+    "contentful": "^9.2.20",
+    "dotenv": "^16.0.3",
+    "micro": "^9.4.1",
+    "micro-dev": "^3.1.0",
+    "micro-post": "^2.2.0",
+    "shopify-api-node": "^3.12.2"
+  }
+}
