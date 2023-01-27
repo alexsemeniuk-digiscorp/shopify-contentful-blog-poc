@@ -6,7 +6,7 @@ const MapModules = (modules) => {
   return modules.map((module) => {
     const type = module.sys.contentType ? module.sys.contentType.sys.id : false
     return RenderModules(module, type)
-  })
+  }).join('')
 }
 
 module.exports = (data) => {
