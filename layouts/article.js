@@ -14,7 +14,7 @@ module.exports = (data) => {
 <div class='single'>
   <div className='article__hero rel'>
     <div class='obj-fit abs fill js-obj-fit-image lazy-img'>
-      <img class='fill-h fill-v abs fill' src={data.featuredImage.fields.file.url}  />
+      <img class='fill-h fill-v abs fill' src="${data.featuredImage.fields.file.url}"  />
     </div>
   </div>
   <section className='bgw z0 rel'>
